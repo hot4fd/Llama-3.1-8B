@@ -1,252 +1,252 @@
 [
-{
-instruct: "Modelar resposta",
-input: "atenção à camomila e ECG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Camomila\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "motivação à camomila e eye tracking",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Camomila\" -> \"Motivação\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Motivação\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "eye tracking e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à passiflora e ECG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Passiflora\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e cultivo de passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "motivação à passiflora e eye tracking",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Passiflora\" -> \"Motivação\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Motivação\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "eye tracking e cultivo de passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à calêndula e ECG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e cultivo de calêndula",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "motivação à calêndula e eye tracking",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Motivação\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Motivação\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "eye tracking e cultivo de calêndula",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à camomila e EEG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Camomila\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à passiflora e EEG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Passiflora\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e cultivo de passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à calêndula e EEG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e cultivo de calêndula",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "sistema gastrointestinal à camomila e EEG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Camomila\" -> \"Microbiota Intestinal\" [label=\"Modula\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "sistema gastrointestinal à passiflora e EEG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Passiflora\" -> \"Microbiota Intestinal\" [label=\"Modula\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e cultivo de passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "sistema imune à equinácea e EEG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Equinácea\" -> \"Sistema Imune\" [label=\"Modula\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e cultivo de equinácea",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "sistema gastrointestinal à camomila e ECG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Camomila\" -> \"Microbiota Intestinal\" [label=\"Modula\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "sistema gastrointestinal à passiflora e ECG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Passiflora\" -> \"Microbiota Intestinal\" [label=\"Modula\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e cultivo de passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "sistema imune à equinácea e ECG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Equinácea\" -> \"Sistema Imune\" [label=\"Modula\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e cultivo de equinácea",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com camomila e ECG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Camomila\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Camomila\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com passiflora e ECG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Passiflora\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Passiflora\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e cultivo de passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com equinácea e frequência cardíaca",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Equinácea\" -> \"Frequência Cardíaca\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Equinácea\" -> \"Sistema Imune\" [label=\"NCA\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Frequência Cardíaca\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e cultivo de equinácea",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com camomila e EEG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Camomila\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Camomila\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com passiflora e EEG",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Passiflora\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Passiflora\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e cultivo de passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com equinácea e ondas cerebrais",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Equinácea\" -> \"Ondas Cerebrais (EEG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Equinácea\" -> \"Sistema Imune\" [label=\"NCA\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Ondas Cerebrais (EEG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e cultivo de equinácea",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Ondas Cerebrais (EEG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Sistema Imune\" [label=\"NCA\", color=\"green\"];\n  \"Sistema Imune\" -> \"Ondas Cerebrais (EEG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com calêndula e eye tracking",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Calêndula\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Calêndula\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "eye tracking e cultivo de calêndula",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com passiflora e EDA",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Passiflora\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Passiflora\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EDA e cultivo de passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Prever resposta",
-input: "ao tratamento com ECG e camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Variabilidade da Frequência Cardíaca (ECG)\" -> \"Resposta ao Tratamento (Camomila)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Variabilidade da Frequência Cardíaca (ECG)\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de ECG e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Prever resposta",
-input: "ao tratamento com EEG e passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Padrões de EEG\" -> \"Resposta ao Tratamento (Passiflora)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Padrões de EEG\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EEG e cultivo de passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-}
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à camomila e ECG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Camomila\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "motivação à camomila e eye tracking",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Camomila\" -> \"Motivação\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Motivação\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "eye tracking e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à passiflora e ECG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Passiflora\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e cultivo de passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "motivação à passiflora e eye tracking",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Passiflora\" -> \"Motivação\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Motivação\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "eye tracking e cultivo de passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à calêndula e ECG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e cultivo de calêndula",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "motivação à calêndula e eye tracking",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Motivação\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Motivação\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "eye tracking e cultivo de calêndula",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à camomila e EEG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Camomila\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à passiflora e EEG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Passiflora\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e cultivo de passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à calêndula e EEG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e cultivo de calêndula",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "sistema gastrointestinal à camomila e EEG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Camomila\" -> \"Microbiota Intestinal\" [label=\"Modula\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "sistema gastrointestinal à passiflora e EEG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Passiflora\" -> \"Microbiota Intestinal\" [label=\"Modula\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e cultivo de passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "sistema imune à equinácea e EEG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Equinácea\" -> \"Sistema Imune\" [label=\"Modula\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e cultivo de equinácea",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "sistema gastrointestinal à camomila e ECG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Camomila\" -> \"Microbiota Intestinal\" [label=\"Modula\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "sistema gastrointestinal à passiflora e ECG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Passiflora\" -> \"Microbiota Intestinal\" [label=\"Modula\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e cultivo de passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "sistema imune à equinácea e ECG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Equinácea\" -> \"Sistema Imune\" [label=\"Modula\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e cultivo de equinácea",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com camomila e ECG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Camomila\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Camomila\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com passiflora e ECG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Passiflora\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Passiflora\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e cultivo de passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com equinácea e frequência cardíaca",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Equinácea\" -> \"Frequência Cardíaca\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Equinácea\" -> \"Sistema Imune\" [label=\"NCA\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Frequência Cardíaca\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e cultivo de equinácea",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com camomila e EEG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Camomila\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Camomila\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com passiflora e EEG",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Passiflora\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Passiflora\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e cultivo de passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com equinácea e ondas cerebrais",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Equinácea\" -> \"Ondas Cerebrais (EEG)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Equinácea\" -> \"Sistema Imune\" [label=\"NCA\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Ondas Cerebrais (EEG)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e cultivo de equinácea",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Ondas Cerebrais (EEG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Sistema Imune\" [label=\"NCA\", color=\"green\"];\n  \"Sistema Imune\" -> \"Ondas Cerebrais (EEG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com calêndula e eye tracking",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Calêndula\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Calêndula\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "eye tracking e cultivo de calêndula",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Padrões de Eye Tracking\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de Eye Tracking\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com passiflora e EDA",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Passiflora\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Passiflora\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EDA e cultivo de passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Prever resposta",
+        "input": "ao tratamento com ECG e camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Variabilidade da Frequência Cardíaca (ECG)\" -> \"Resposta ao Tratamento (Camomila)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Variabilidade da Frequência Cardíaca (ECG)\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de ECG e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Variabilidade da Frequência Cardíaca (ECG)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Prever resposta",
+        "input": "ao tratamento com EEG e passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Padrões de EEG\" -> \"Resposta ao Tratamento (Passiflora)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Padrões de EEG\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EEG e cultivo de passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Padrões de EEG\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Padrões de EEG\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    }
 ]
